@@ -40,11 +40,9 @@
 @keyframes dal {
     0%{
         opacity: 0%;
-        /* transform: translateY(-30px) */
     }
     100%{
         opacity: 100%;
-        /* transform: translateY(0px) */
     }
 }
 
@@ -59,42 +57,23 @@
     }
 }
 .W{
-    animation: load 3s;
-    animation-delay: 0ms;
-    animation-fill-mode: forwards;
+    animation: load 3s forwards, float 5s 4s ease-in-out infinite;
 }
 .E{
-    animation: load 3s;
-    animation-delay: .2s;
-    animation-fill-mode: forwards;
+    animation: load 3s .2s forwards, float 5s 4.2s ease-in-out infinite;
 }
 .L{
-    animation: load;
-    animation-duration: 3s;
-    animation-delay: .4s;
-    animation-fill-mode: forwards;
+    animation: load 3s .4s forwards, float 5s 4.4s ease-in-out infinite;
 }
 .C{
-    animation: load;
-    animation-duration: 3s;
-    animation-delay: .6s;
-    animation-fill-mode: forwards;
+    animation: load 3s .6s forwards, float 5s 4.6s ease-in-out infinite;
 }
 .O{
-    animation: load;
-    animation-duration: 3s;
-    animation-delay: .8s;
-    animation-fill-mode: forwards;
+    animation: load 3s .8s forwards, float 5s 4.8s ease-in-out infinite;
 }
 .M{
-    animation: load;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
+    animation: load 3s 1s forwards, float 5s 5s ease-in-out infinite;
 }
 .E2{
-    animation: load;
-    animation-duration: 3s;
-    animation-delay: 1.2s;
-    animation-fill-mode: forwards;
+    animation: load 3s 1.2s forwards, float 5s 5.2s ease-in-out infinite;
 }

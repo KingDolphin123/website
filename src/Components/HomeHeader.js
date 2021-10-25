@@ -6,7 +6,7 @@ import arrow from '../css/arraw.png';
 const Header = () => {
     const scrollOne = () => {
         window.scrollTo({
-            top: 1000,
+            top: window.innerHeight,
             behavior: 'smooth'
         })
     }
