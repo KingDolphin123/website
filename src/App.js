@@ -11,6 +11,7 @@ function App() {
       </div>
       <div className = 'body'>
         <HomeBody />
+        
       </div>
     </div>
   );
