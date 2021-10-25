@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
  
+.headerpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.downarrow{
+    height: 5vh;
+    width: auto;
+    margin-top: 10vh;
+    opacity: 0%;
+    animation: dal 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
 .Welcome{
     display:flex;
-    flex-grow: 1;
 }
 .letter{
     font-family: 'Zen Kurenaido', sans-serif;;
@@ -10,19 +24,26 @@
     font-size: 10vh;
     opacity: 0%;
     padding: 1vh;
-
 }
-@keyframes load{
+@keyframes dal {
     0%{
         opacity: 0%;
-        transform: translateY(100px) skew(20deg);
-    }
-    98%{
-        transform: translateY(0px)
+        transform: translateY(-30px)
     }
     100%{
         opacity: 100%;
-        transform: skew(0deg);
+        transform: translateY(0px)
+    }
+}
+
+@keyframes load{
+    0%{
+        opacity: 0%;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(0px);
     }
 }
 .W{

@@ -3,11 +3,14 @@
   padding:0%;
   border:0%;
 }
-.App{
+.header{
   min-height: 100vh;
   background-color: rgb(49, 52, 53);
   display: flex;
-  padding-left: 40vh;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+}
+.body{
+  min-height: 200vh;
+  background-color: whitesmoke
 }
