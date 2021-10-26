@@ -31,6 +31,7 @@
 }
 .letter:hover{
     font-size: 13vh;
+    color: #578FC7;
 }
 @keyframes float {
     0%{

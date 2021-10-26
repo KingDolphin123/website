@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
 .navbarflex{
     height: 7vh;
-    background-color: rgb(49, 52, 53);
+    background-color: #85AFFF;
     position: fixed;
     width:100vw;
     z-index: 1;
-    box-shadow: 0px 3px whitesmoke;
+    /* box-shadow: 0px 3px whitesmoke; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    color: whitesmoke;
 }
 .flez{
     padding: 6vh;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: rgb(49, 52, 53);
 }
