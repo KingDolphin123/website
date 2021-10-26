@@ -15,5 +15,5 @@
 }
 .body{
   min-height: 200vh;
-  background-color: whitesmoke
+  background: linear-gradient(180deg, whitesmoke 0%,#B99A79 100%)
 }

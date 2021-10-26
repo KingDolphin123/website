@@ -7,7 +7,7 @@ import useScrollPosition from '@react-hook/window-scroll'
 const Navbar = () => {
     const [nbcolor, setnbcolor] = useState('navbarflex')
     const [elcolor, setelcolor] = useState('flez')
-    const scrollY = useScrollPosition(10)
+    const scrollY = useScrollPosition(60)
     const nb = () => {
         if (scrollY >= window.innerHeight - 10) {
             setnbcolor('navbarflex2')
