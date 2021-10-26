@@ -12,6 +12,16 @@ function App() {
             <p>aboutpage</p>
           </div>
         </Route>
+        <Route path="/Page2">
+          <div>
+            <p>Page2</p>
+          </div>
+        </Route>
+        <Route path="/Page3">
+          <div>
+            <p>Page3</p>
+          </div>
+        </Route>
         <Route path="/">
           <div>
             <HomePage />

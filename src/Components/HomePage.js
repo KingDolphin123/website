@@ -1,11 +1,12 @@
+import React from 'react';
 import '../css/App.css';
 import HomeHeader from "./HomeHeader";
 import HomeBody from "./HomeBody";
 import Navbar from "./Navbar";
 
-const homePage = () => {
+const HomePage = () => {
     return (
-        <div className='app'>
+        <div className='app' >
             <Navbar />
             <div className="header">
                 <HomeHeader />
@@ -16,4 +17,4 @@ const homePage = () => {
         </div>
     )
 }
-export default homePage;
+export default HomePage;
