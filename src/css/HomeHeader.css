@@ -12,9 +12,11 @@
     margin-top: 10vh;
     opacity: 0%;
     animation: dal 3s 2s forwards,float 5s 2.5s ease-in-out infinite;
-    /* animation-delay: 2s;
-    animation-fill-mode: forwards;  */
-    /* animation: float 5s ease-in-out infinite; */
+    transition: 1s;
+}
+.downarrow:hover{    
+    height:7vh;
+    width:auto;
 }
 .Welcome{
     display:flex;
@@ -25,6 +27,10 @@
     font-size: 10vh;
     opacity: 0%;
     padding: 1vh;
+    transition: 1s;
+}
+.letter:hover{
+    font-size: 13vh;
 }
 @keyframes float {
     0%{
@@ -57,23 +63,23 @@
     }
 }
 .W{
-    animation: load 3s forwards, float 5s 4s ease-in-out infinite;
+    animation: load 3s forwards, float 5s 3s ease-in-out infinite;
 }
 .E{
-    animation: load 3s .2s forwards, float 5s 4.2s ease-in-out infinite;
+    animation: load 3s .2s forwards, float 5s 3.25s ease-in-out infinite;
 }
 .L{
-    animation: load 3s .4s forwards, float 5s 4.4s ease-in-out infinite;
+    animation: load 3s .4s forwards, float 5s 3.5s ease-in-out infinite;
 }
 .C{
-    animation: load 3s .6s forwards, float 5s 4.6s ease-in-out infinite;
+    animation: load 3s .6s forwards, float 5s 3.75s ease-in-out infinite;
 }
 .O{
-    animation: load 3s .8s forwards, float 5s 4.8s ease-in-out infinite;
+    animation: load 3s .8s forwards, float 5s 4s ease-in-out infinite;
 }
 .M{
-    animation: load 3s 1s forwards, float 5s 5s ease-in-out infinite;
+    animation: load 3s 1s forwards, float 5s 4.25s ease-in-out infinite;
 }
 .E2{
-    animation: load 3s 1.2s forwards, float 5s 5.2s ease-in-out infinite;
+    animation: load 3s 1.2s forwards, float 5s 4.5s ease-in-out infinite;
 }

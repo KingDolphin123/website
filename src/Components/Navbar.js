@@ -5,7 +5,11 @@ import '../css/Navbar.css';
 
 const navbar = () => {
     return (
-        <p className = 'daf'>idsjfoajdf</p>
+        <div className = "navbarflex">
+            <p className = 'flez1'>idsjfoajdf</p>
+            <p className = '2'>dfgsdfgsdg</p>
+            <p className = '3'>asdffdsfee</p>
+        </div>
     )
 }
 export default navbar;
