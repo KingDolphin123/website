@@ -4,9 +4,10 @@ import HomeHeader from "./HomeHeader";
 import HomeBody from "./HomeBody";
 import Navbar from "./Navbar";
 
-const HomePage = () => {
+
+const HomePage = () => {  
     return (
-        <div className='app' >
+        <div className='app'>
             <Navbar />
             <div className="header">
                 <HomeHeader />
