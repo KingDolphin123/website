@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Tangerine:wght@700&family=Zen+Kurenaido&display=swap');
  
 .headerpage{
     display:flex;
@@ -22,15 +22,15 @@
     display:flex;
 }
 .letter{
-    font-family: 'Zen Kurenaido', sans-serif;;
+    font-family: 'Staatliches', cursive;
     color: whitesmoke;
-    font-size: 10vh;
+    font-size: 13vh;
     opacity: 0%;
     padding: 1vh;
     transition: 1s;
 }
 .letter:hover{
-    font-size: 13vh;
+    font-size: 16vh;
     color: #578FC7;
 }
 @keyframes float {

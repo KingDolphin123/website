@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Tangerine:wght@700&family=Unica+One&family=Zen+Kurenaido&display=swap');
 
 .navbarflex3{
     height: 7vh;
@@ -48,7 +48,8 @@
 .flez{
     margin: 4vh;
     padding: 1vh;
-    font-family: 'Staatliches', cursive;    
+    font-family: 'Unica One', cursive;
+    font-weight: bold;   
     font-size: 100%;
     color: rgb(49, 52, 53);
     transition:.25s;
@@ -57,7 +58,8 @@
 .flec{
     margin: 7vh;
     padding: 1vh;
-    font-family: 'Staatliches', cursive;    
+    font-family: 'Unica One', cursive;
+    font-weight: bold;   
     font-size: 125%;
     color: #85AFFF;
     transition:.25s;

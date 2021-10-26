@@ -14,12 +14,12 @@ const Header = () => {
         <div className='headerpage'>
             <div className="Welcome">
                 <p className="letter W">W</p>
-                <p className="letter E">E</p>
-                <p className="letter L">L</p>
-                <p className="letter C">C</p>
-                <p className="letter O">O</p>
-                <p className="letter M">M</p>
-                <p className="letter E2">E</p>
+                <p className="letter E">e</p>
+                <p className="letter L">l</p>
+                <p className="letter C">c</p>
+                <p className="letter O">o</p>
+                <p className="letter M">m</p>
+                <p className="letter E2">e</p>
             </div>
             <input className="downarrow" type="image" src={arrow} alt='arrowdown' onClick={scrollOne} />
         </div>
