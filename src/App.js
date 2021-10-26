@@ -1,21 +1,24 @@
-import './css/App.css';
-import HomeHeader from "./Components/HomeHeader";
-import HomeBody from "./Components/HomeBody";
-import Navbar from "./Components/Navbar";
-
-
+import HomePage from "./Components/HomePage";
+import React from 'react';
+import "./css/App.css";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className = 'app'>
-        <Navbar />
-      <div className="header">
-        <HomeHeader />
-      </div>
-      <div className = 'body'>
-        <HomeBody />
-      </div>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/About">
+          <div>
+            <p>aboutpage</p>
+          </div>
+        </Route>
+        <Route path="/">
+          <div>
+            <HomePage />
+          </div>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

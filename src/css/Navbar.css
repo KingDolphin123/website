@@ -13,7 +13,8 @@
     flex-direction: row;
 }
 .flez{
-    padding: 6vh;
+    margin: 5vh;
+    padding: 1vh;
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: bold;
     color: rgb(49, 52, 53);
