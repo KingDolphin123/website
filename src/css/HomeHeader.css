@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Tangerine:wght@700&family=Zen+Kurenaido&display=swap');
  
+.a{
+    top: 20vh;
+    left: 5vw;
+    animation: rotate 30s infinite linear, dal 3s 2s forwards;
+}
+.b{
+    top: 65vh;
+    left: 25vw;
+    animation: rotate 70s infinite linear, dal 3s 1s forwards;
+}
+.c{
+    top: 70vh;
+    left: 60vw;
+    animation: rotate 60s infinite linear, dal 3s 3s forwards;
+}
+.d{
+    top: 60vh;
+    left: 85vw;
+    animation: rotate 50s infinite linear, dal 3s 1.4s forwards;
+}
+.e{
+    top: 10vh;
+    left: 70vw;
+    animation: rotate 40s infinite linear, dal 3s 2.5s forwards;
+}
+.f{
+    top: 20vh;
+    left: 40vw;
+    animation: rotate 20s infinite linear, dal 3s .3s forwards;
+}
+.circle{
+    position:absolute;
+    opacity: 0%;
+    z-index:1;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
 .headerpage{
     display:flex;
     flex-direction: column;
@@ -13,6 +56,7 @@
     opacity: 0%;
     animation: dal 3s 2s forwards,float 5s 2.5s ease-in-out infinite;
     transition: 1s;
+    z-index: 2;
 }
 .downarrow:hover{    
     height:7vh;
@@ -28,6 +72,7 @@
     opacity: 0%;
     padding: 1vh;
     transition: 1s;
+    z-index:2;
 }
 .letter:hover{
     font-size: 16vh;

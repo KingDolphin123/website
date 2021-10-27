@@ -1,44 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Tangerine:wght@700&family=Unica+One&family=Zen+Kurenaido&display=swap');
 
-.navbarflex3{
-    height: 7vh;
-    background-color: #85AFFF;
-    position: fixed;
-    width:100vw;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo{
+    display:flex;
     flex-direction: row;
-    transition:.25s;
+    height: 7vh;
+    align-items: center;
+    position:fixed;
+    z-index: 5;
+}
+.loglink{
+    transform: scale(15%);
+    z-index:4;
 }
 .navbarflex{
-    animation: fadein 4s;
     height: 7vh;
-    background-color: #85AFFF;
+    background-color: whitesmoke;
     position: fixed;
     width:100vw;
-    z-index: 1;
+    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     transition:.25s;
-}
-@keyframes fadein {
-    0%{
-        opacity: 0%;
-    }
-    100%{
-        opacity: 100%;
-    }
 }
 .navbarflex2{
     height: 7vh;
     background-color: rgb(49, 52, 53);
     position: fixed;
     width:100vw;
-    z-index: 1;
+    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
