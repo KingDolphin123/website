@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/Navbar.css';
 import { Link } from 'react-router-dom';
 import logo from '../css/path860.png';
-import useScrollPosition from '@react-hook/window-scroll'
+import useScrollPosition from '@react-hook/window-scroll';
 
 
 const Navbar = () => {
