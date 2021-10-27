@@ -11,7 +11,7 @@ import circle6 from '../css/circleshape6.png';
 const Header = () => {
     const scrollOne = () => {
         window.scrollTo({
-            top: window.innerHeight,
+            top: window.innerHeight+.09*window.innerHeight,
             behavior: 'smooth'
         })
     }

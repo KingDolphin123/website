@@ -57,7 +57,7 @@
     animation: dal 3s 2s forwards,float 5s 2.5s ease-in-out infinite;
     transition: 1s;
     z-index: 2;
-    padding-top: 20vh;
+    margin-top: 20vh;
     position: absolute;
 
 }
