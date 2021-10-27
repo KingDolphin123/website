@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Navbar.css';
 import { Link } from 'react-router-dom';
-import logo from '../css/path860.png';
+import logo from '../css/rect41661.png';
 import useScrollPosition from '@react-hook/window-scroll';
 
 
@@ -19,7 +19,7 @@ const Navbar = () => {
             setelcolor('flez')
         }
     }
-    window.addEventListener('scroll', nb)
+    window.addEventListener('scroll', nb, {once: true})
     return (
         <div className='nabar'>
             <div className='logo'>
