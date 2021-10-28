@@ -62,4 +62,5 @@
 }
 .flec:hover{
     color: whitesmoke;
+    transform: skewY(6deg) scale(125%) skewX(-2deg);
 }

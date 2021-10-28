@@ -3,7 +3,7 @@ import '../css/HomeBody.css';
 
 const Body = () => {
     return (
-        <p>deez</p>
+        <p></p>
     )
 }
 export default Body;

@@ -77,7 +77,6 @@
     padding: 1vh;
     transition: 1s;
     z-index:2;
-
 }
 .letter:hover{
     font-size: 16vh;
