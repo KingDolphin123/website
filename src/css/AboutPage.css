@@ -4,7 +4,7 @@
     border:0;
 }
 .para{
-    height:200vh;
+    min-height:200vh;
     background-color: rgb(123, 189, 219);
     padding-top: 5vh;
 }
@@ -17,3 +17,10 @@
 .pa {
     background-color: rgb(123, 189, 219);
 } 
+.rect{
+    z-index: 1;
+    width: 100vw;
+    height: 30vw;
+    position: absolute;
+    top: 110vh;
+}
