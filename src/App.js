@@ -12,6 +12,7 @@ function App() {
         <Route path="/About">
           <div>
             <Navbar />
+            <p>idsjfaijdif</p>
           </div>
         </Route>
         <Route path="/Page2">

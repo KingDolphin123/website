@@ -11,15 +11,15 @@ const Navbar = () => {
     const scrollY = useScrollPosition(60)
     const nb = () => {
         if (scrollY >= window.innerHeight - 10) {
-            setnbcolor('navbarflex2')
-            setelcolor('flec')
+            setnbcolor('navbarflex2');
+            setelcolor('flec');
         }
         else if (scrollY <= window.innerHeight - 10) {
-            setnbcolor('navbarflex')
-            setelcolor('flez')
+            setnbcolor('navbarflex');
+            setelcolor('flez');
         }
     }
-    window.addEventListener('scroll', nb, {once: true})
+    window.addEventListener('scroll', nb, {once: true});
     return (
         <div className='nabar'>
             <div className='logo'>
