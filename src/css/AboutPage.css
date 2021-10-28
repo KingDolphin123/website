@@ -1,0 +1,36 @@
+/* .para {
+    perspective: 1px;
+} */
+.para_layer {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100%;
+  }
+.para_layer--a {
+    transform: translateZ(0);
+    background-image: url('./mnt3.png');
+    background-color: rgb(123, 189, 219);
+} 
+.para_layer--b {
+    transform: translateZ(-1px);
+    background-image: url('./cld3.png');
+  }
+.para_layer--c {
+    transform: translateZ(-2px);
+    background-image: url('./mnt2.png');
+  }
+.para_layer--d {
+    transform: translateZ(-3px);
+    background-image: url('./mnt1.png');
+  }
+.para_layer--e {
+    transform: translateZ(-4px);
+    background-image: url('./cld2.png');
+  }
+.para_layer--f {
+    transform: translateZ(-5px);
+    background-image: url('./cld1.png');
+} 
