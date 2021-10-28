@@ -1,0 +1,21 @@
+.wrap{
+    height: 200vh;
+    background: linear-gradient(180deg, whitesmoke 0%,#85AFFF 100%);
+    overflow-x: auto;
+    overflow-y: auto;
+    perspective: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:100%
+}
+.wrap__section{
+    position: relative;
+}
+.wrap__section--ta{
+    transform: translateZ(0px)
+}
+.wrap__section--tb{
+    transform: translateZ(1px)
+}

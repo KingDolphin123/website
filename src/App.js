@@ -2,8 +2,8 @@ import HomePage from "./Components/HomePage";
 import React from 'react';
 import "./css/App.css";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Para from "./Components/AboutBody";
+// import Navbar from './Components/Navbar';
+// import Para from "./Components/AboutBody";
 import Test from "./Components/test";
 
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import "../css/AboutPage.css"
-import mnt1 from '../css/mnt1.png'
-import mnt2 from '../css/mnt2.png'
-import mnt3 from '../css/mnt3.png'
-import cld1 from '../css/cld1.png'
-import cld2 from '../css/cld2.png'
-import cld3 from '../css/cld3.png'
+// import mnt1 from '../css/mnt1.png'
+// import mnt2 from '../css/mnt2.png'
+// import mnt3 from '../css/mnt3.png'
+// import cld1 from '../css/cld1.png'
+// import cld2 from '../css/cld2.png'
+// import cld3 from '../css/cld3.png'
 
 
 const Para = () =>{
