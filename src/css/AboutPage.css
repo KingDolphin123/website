@@ -5,22 +5,41 @@
 }
 .para{
     min-height:200vh;
-    background-color: rgb(123, 189, 219);
-    padding-top: 5vh;
+    background-color: whitesmoke;
 }
 .ree{    
     width: 100vw;
-    height: auto;
+    height: 115vh;
     position: absolute;
-
+    object-fit: cover;
 }
-.pa {
-    background-color: rgb(123, 189, 219);
-} 
 .rect{
     z-index: 1;
     width: 100vw;
-    height: 30vw;
+    height: 100vh;
     position: absolute;
     top: 110vh;
+}
+.welcomewrap{
+    padding-top: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-20px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+.cld--1{
+    animation: float 5s -4s infinite;
+}
+.cld--2{
+    animation: float 4s infinite;
 }

@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route path="/About">
           <div>
-            <Para />
+            <HomePage />
           </div>
         </Route>
         <Route path="/Page2">
@@ -27,7 +27,7 @@ function App() {
         </Route>
         <Route path="/">
           <div>
-            <HomePage />
+          <Para />
           </div>
         </Route>
       </Switch>
