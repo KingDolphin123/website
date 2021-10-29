@@ -5,6 +5,9 @@
     padding:0;
     border:0;
 }
+.hoje{
+    min-height: 400vh;
+}
 .navheader{
     height:7vh;
     width:100vw;
@@ -58,11 +61,27 @@
     position: auto;
     background-color: whitesmoke;
     display: flex;
-    padding-left: 10vw;
-    padding-right: 50vw;
+    /* padding-left: 10vw;
+    padding-right: 50vw; */
     justify-content: center;
     font-size: 10vw;
-    width: 200vw;
+    /* width: 200vw; */
+    font-family: 'Tangerine', cursive;
+}
+.font1{
+    font-family: 'Tangerine', cursive;
+}
+.font2{
+    font-family: 'Staatliches', cursive;
+}
+.font3{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.font4{
+    font-family: 'Staatliches', cursive;
+}
+.font5{
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 .downarrow{
     height: 5vh;
