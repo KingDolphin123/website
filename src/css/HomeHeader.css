@@ -52,12 +52,11 @@
 .downarrow{
     height: 5vh;
     width: auto;
-    margin-top: 10vh;
     opacity: 0%;
     animation: dal 3s 2s forwards,float 5s 2.5s ease-in-out infinite;
     transition: 1s;
     z-index: 2;
-    margin-top: 20vh;
+    margin-top: 30vh;
     position: absolute;
 
 }
@@ -72,11 +71,12 @@
 .letter{
     font-family: 'Staatliches', cursive;
     color: whitesmoke;
-    font-size: 13vh;
+    font-size: 10vw;
     opacity: 0%;
     padding: 1vh;
     transition: 1s;
     z-index:2;
+    text-shadow: .5vw .5vw black;
 }
 .letter:hover{
     font-size: 16vh;
