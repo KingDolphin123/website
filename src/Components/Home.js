@@ -8,7 +8,7 @@ import cld2 from '../css/cld2.png'
 import cld3 from '../css/cld3.png'
 import rect from '../css/rect.png'
 import bgbg from '../css/bg.png'
-import arrow from '../css/arraw.png';
+import arrow from '../css/arr.png';
 
 
 const Home = () => {

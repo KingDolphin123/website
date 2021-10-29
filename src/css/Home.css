@@ -60,7 +60,7 @@
     animation: dal 3s 2s forwards,float 5s 2.5s ease-in-out infinite;
     transition: 1s;
     z-index: 2;
-    margin-top: 30vh;
+    margin-top: 45vh;
     position: absolute;
 }
 .downarrow:hover{    
