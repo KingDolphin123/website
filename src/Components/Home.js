@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../css/AboutPage.css";
+import "../css/Home.css";
 import mnt1 from '../css/mon1.png'
 import mnt3 from '../css/mon2.png'
 import mnt2 from '../css/mon3.png'
@@ -11,7 +11,7 @@ import bgbg from '../css/bg.png'
 import arrow from '../css/arraw.png';
 
 
-const Para = () => {
+const Home = () => {
     const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
 
@@ -29,14 +29,14 @@ const Para = () => {
     return (
         <div className='hoje'>
             <div className='para' >
-                <img className='ree' src={bgbg} alt='bg' style={{ transition: `.0s`, transform: `translateY(-${offsetY * 0.0}px)` }}></img>
-                <img className='ree' src={mnt3} alt='mnt3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .4}px)` }}></img>
-                <img className='ree cld--1' src={cld3} alt='cld3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .6}px)` }}></img>
-                <img className='ree' src={mnt2} alt='mnt2' style={{ transition: `.0s`, transform: `translateY(${offsetY * .1}px)` }}></img>
-                <img className='ree' src={mnt1} alt='mnt1' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .4}px)` }}></img>
+                <img className='ree bg' src={bgbg} alt='bg' style={{ transition: `.0s`, transform: `translateY(-${offsetY * 0.0}px)` }}></img>
+                <img className='ree mnt--3' src={mnt3} alt='mnt3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .4}px)` }}></img>
+                <img className='ree cld--3' src={cld3} alt='cld3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .6}px)` }}></img>
+                <img className='ree mnt--2' src={mnt2} alt='mnt2' style={{ transition: `.0s`, transform: `translateY(${offsetY * .1}px)` }}></img>
+                <img className='ree mnt--1' src={mnt1} alt='mnt1' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .4}px)` }}></img>
                 <img className='ree cld--2' src={cld2} alt='cld2' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .5}px)` }}></img>
-                <img className='ree' src={cld1} alt='cld1' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .6}px)` }}></img>
-                <img className='rect' src={rect} alt='rect' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .6}px)` }}></img>
+                <img className='ree cld--1' src={cld1} alt='cld1' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .6}px)` }}></img>
+                <img className='rect cld--1' src={rect} alt='rect' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .6}px)` }}></img>
                 <div className='welcomewrap' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .1}px)` }}>
                     <div className="Welcome" >
                         <p className="letter W">W</p>
@@ -58,4 +58,4 @@ const Para = () => {
     )
 }
 
-export default Para
+export default Home
