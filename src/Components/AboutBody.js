@@ -22,7 +22,7 @@ const Para = () => {
     }, []);
     const scrollOne = () => {
         window.scrollTo({
-            top: window.innerHeight + .29 * window.innerHeight,
+            top: window.innerHeight + .5 * window.innerHeight,
             behavior: 'smooth'
         })
     }
@@ -49,6 +49,9 @@ const Para = () => {
                     </div>
                     <input className="downarrow" type="image" src={arrow} alt='arrowdown' onClick={scrollOne} />
                 </div>
+            </div>
+            <div className = 'new'>
+                <p>dfasdfasdfasddfsaddf</p>
             </div>
         </div>
 
