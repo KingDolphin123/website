@@ -5,22 +5,30 @@
     padding:0;
     border:0;
 }
+.navheader{
+    height:7vh;
+    width:100vw;
+    position: relative;
+}
+.bg{
+    top:-2vh;
+}
 .para{
     min-height:161vh;
     background-color: whitesmoke;
 }
 .ree{    
     width: 100vw;
-    height: 115vh;
+    height: 120vh;
     position: absolute;
     object-fit: cover;
 }
 .rect{
     z-index: 1;
     width: 100vw;
-    height: 120vh;
+    height: 135vh;
     position: absolute;
-    top: 110vh;
+    top: 120vh;
 }
 .welcomewrap{
     padding-top: 30vh;
@@ -50,8 +58,11 @@
     position: auto;
     background-color: whitesmoke;
     display: flex;
+    padding-left: 10vw;
+    padding-right: 50vw;
     justify-content: center;
     font-size: 10vw;
+    width: 200vw;
 }
 .downarrow{
     height: 5vh;

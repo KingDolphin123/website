@@ -13,8 +13,21 @@ import arrow from '../css/arr.png';
 
 const Home = () => {
     const [offsetY, setOffsetY] = useState(0);
-    const handleScroll = () => setOffsetY(window.pageYOffset);
-
+    const [test, settest] = useState('helli')
+    const [offsetfortext1, setoffsetfortext1] = useState(0);
+    const handleScroll = () => {
+        setOffsetY(window.pageYOffset);
+    }
+    const changetest = () => {
+        setoffsetfortext1((window.pageYOffset)-(window.innerHeight+.5*window.innerHeight));
+        // if (offsetY > window.innerHeight + .5 * window.innerHeight){
+        //     settest('hello');
+        // }
+        // else if (offsetY < window.innerHeight + .5 * window.innerHeight){
+        //     settest('helli');
+        // }
+    }
+    window.addEventListener('scroll', changetest, {once:true})
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
 
@@ -28,8 +41,9 @@ const Home = () => {
     }
     return (
         <div className='hoje'>
+            <img className = 'navheader' src={bgbg} alt='head'></img>
             <div className='para' >
-                <img className='ree bg' src={bgbg} alt='bg' style={{ transition: `.0s`, transform: `translateY(-${offsetY * 0.0}px)` }}></img>
+                <img className='ree bg' src={bgbg} alt='bg'></img>
                 <img className='ree mnt--3' src={mnt3} alt='mnt3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .4}px)` }}></img>
                 <img className='ree cld--3' src={cld3} alt='cld3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .6}px)` }}></img>
                 <img className='ree mnt--2' src={mnt2} alt='mnt2' style={{ transition: `.0s`, transform: `translateY(${offsetY * .1}px)` }}></img>
@@ -50,8 +64,8 @@ const Home = () => {
                     <input className="downarrow" type="image" src={arrow} alt='arrowdown' onClick={scrollOne} />
                 </div>
             </div>
-            <div className = 'new'>
-                <p>dfasdfasdfasddfsaddf</p>
+            <div className = 'new' style={{transform: `translateX(-${offsetfortext1 * 10}px)` }}>
+                <p>{test}</p>
             </div>
         </div>
 
