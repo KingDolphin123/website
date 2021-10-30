@@ -9,44 +9,32 @@ import cld3 from '../css/cld3.png'
 import rect from '../css/rect.png'
 import bgbg from '../css/bg.png'
 import arrow from '../css/arr.png';
-import {floor, random} from 'mathjs'
+// import {floor, random} from 'mathjs'
 
 const Home = () => {
     const [offsetY, setOffsetY] = useState(0);
     const [test, settest] = useState('helli');
-    const [rand, setrand] = useState(0)
-    // const getRandom=()=>{
-    //     setrand(floor(random()*4))
-    // }
-    // const [offsetfortext1, setoffsetfortext1] = useState(0);
     const handleScroll = () => {
         setOffsetY(window.pageYOffset);
     }
     const fontlist = ["font1", "font2", "font3", "font4", "font5"]
     const changetest = () => {
-        // setoffsetfortext1((window.pageYOffset)-(window.innerHeight+.5*window.innerHeight));
         if (offsetY > window.innerHeight + .45 * window.innerHeight){
-            // setrand(floor(random()*4))
             settest('HELLO');
         }
         else if (offsetY > window.innerHeight + .4 * window.innerHeight){
-            // setrand(floor(random()*4))
             settest('HELL');
         }
         else if (offsetY > window.innerHeight + .35 * window.innerHeight){
-            // setrand(floor(random()*4))
             settest('HEL');
         }
         else if (offsetY > window.innerHeight + .3 * window.innerHeight){
-            // setrand(floor(random()*4))
             settest('HE');
         }
         else if (offsetY > window.innerHeight + .2 * window.innerHeight){
-            // setrand(floor(random()*4))
             settest('H');
         }
         else if (offsetY > window.innerHeight + .1 * window.innerHeight){
-            // setrand(floor(random()*4))
             settest('');
         }
     }
@@ -88,10 +76,8 @@ const Home = () => {
                 </div>
             </div>
                 <div className = 'new'>
-            {/* <div className = 'new' style={{transform: `translateX(-${offsetfortext1 * 10}px)` }}> */}
-                <p className = {fontlist[rand]}>{test}</p>
+                <p className = {fontlist[2]}>{test}</p>
             </div>
-            {/* <button onClick={getRandom}>{fontlist[rand]}</button> */}
         </div>
 
     )
