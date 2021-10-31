@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Tangerine:wght@700&family=Zen+Kurenaido&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&family=Staatliches&family=Tangerine:wght@700&family=Unica+One&family=Zen+Kurenaido&display=swap');
 *{
     margin:0;
     padding:0;
@@ -66,10 +65,9 @@
     justify-content: center;
     font-size: 10vw;
     /* width: 200vw; */
-    font-family: 'Tangerine', cursive;
 }
 .font1{
-    font-family: 'Tangerine', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 .font2{
     font-family: 'Staatliches', cursive;
@@ -78,10 +76,10 @@
     font-family: 'Zen Kurenaido', sans-serif;
 }
 .font4{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 .font5{
-    font-family: 'Zen Kurenaido', sans-serif;
+    font-family: 'Unica One', cursive;
 }
 .downarrow{
     height: 5vh;

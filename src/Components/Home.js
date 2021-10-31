@@ -9,36 +9,42 @@ import cld3 from '../css/cld3.png'
 import rect from '../css/rect.png'
 import bgbg from '../css/bg.png'
 import arrow from '../css/arr.png';
-// import {floor, random} from 'mathjs'
+import { floor, random } from 'mathjs'
 
 const Home = () => {
     const [offsetY, setOffsetY] = useState(0);
     const [test, settest] = useState('helli');
+    const [font, setfont] = useState(0);
     const handleScroll = () => {
         setOffsetY(window.pageYOffset);
     }
     const fontlist = ["font1", "font2", "font3", "font4", "font5"]
     const changetest = () => {
-        if (offsetY > window.innerHeight + .45 * window.innerHeight){
+        if (offsetY > window.innerHeight + .45 * window.innerHeight) {
             settest('HELLO');
         }
-        else if (offsetY > window.innerHeight + .4 * window.innerHeight){
+        else if (offsetY > window.innerHeight + .4 * window.innerHeight) {
             settest('HELL');
         }
-        else if (offsetY > window.innerHeight + .35 * window.innerHeight){
+        else if (offsetY > window.innerHeight + .35 * window.innerHeight) {
             settest('HEL');
         }
-        else if (offsetY > window.innerHeight + .3 * window.innerHeight){
+        else if (offsetY > window.innerHeight + .3 * window.innerHeight) {
             settest('HE');
         }
-        else if (offsetY > window.innerHeight + .2 * window.innerHeight){
+        else if (offsetY > window.innerHeight + .2 * window.innerHeight) {
             settest('H');
         }
-        else if (offsetY > window.innerHeight + .1 * window.innerHeight){
+        else if (offsetY > window.innerHeight + .1 * window.innerHeight) {
             settest('');
         }
     }
-    window.addEventListener('scroll', changetest, {once:true})
+    useEffect(() => {
+        if (test === "HELLO" || test === "HELL" || test === "HEL" || test === "HE" || test === "H") {
+            setfont(floor(random() * 4))
+        }
+    }, [test])
+    window.addEventListener('scroll', changetest, { once: true })
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
 
@@ -52,7 +58,7 @@ const Home = () => {
     }
     return (
         <div className='hoje'>
-            <img className = 'navheader' src={bgbg} alt='head'></img>
+            <img className='navheader' src={bgbg} alt='head'></img>
             <div className='para' >
                 <img className='ree bg' src={bgbg} alt='bg'></img>
                 <img className='ree mnt--3' src={mnt3} alt='mnt3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .4}px)` }}></img>
@@ -75,8 +81,8 @@ const Home = () => {
                     <input className="downarrow" type="image" src={arrow} alt='arrowdown' onClick={scrollOne} />
                 </div>
             </div>
-                <div className = 'new'>
-                <p className = {fontlist[2]}>{test}</p>
+            <div className='new'>
+                <p className={fontlist[font]}>{test}</p>
             </div>
         </div>
 
