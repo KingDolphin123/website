@@ -41,7 +41,7 @@ const Home = () => {
     }
     useEffect(() => {
         if (test === "HELLO" || test === "HELL" || test === "HEL" || test === "HE" || test === "H") {
-            setfont(floor(random() * 4))
+            setfont(floor(random() * 5))
         }
     }, [test])
     window.addEventListener('scroll', changetest, { once: true })

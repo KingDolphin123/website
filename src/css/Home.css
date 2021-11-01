@@ -28,7 +28,7 @@
 .rect{
     z-index: 1;
     width: 100vw;
-    height: 135vh;
+    height: 140vh;
     position: absolute;
     top: 120vh;
 }
@@ -67,19 +67,25 @@
     /* width: 200vw; */
 }
 .font1{
+    padding-top: 5vh;
     font-family: 'Raleway', sans-serif;
 }
 .font2{
+    padding-top:5vh;
     font-family: 'Staatliches', cursive;
+    letter-spacing: 1.5vw;
 }
 .font3{
     font-family: 'Zen Kurenaido', sans-serif;
 }
 .font4{
     font-family: 'Raleway', sans-serif;
+    padding-top: 3vh;
 }
 .font5{
+    padding-top: 4vh;
     font-family: 'Unica One', cursive;
+    letter-spacing: .75vw;
 }
 .downarrow{
     height: 5vh;
