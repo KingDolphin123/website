@@ -10,8 +10,10 @@ import rect from '../css/rect.png'
 import bgbg from '../css/bg.png'
 import arrow from '../css/arr.png';
 import { floor, random } from 'mathjs'
+import AOS from 'aos'
 
 const Home = () => {
+    AOS.init();
     const [offsetY, setOffsetY] = useState(0);
     const [test, settest] = useState('helli');
     const [font, setfont] = useState(0);
@@ -83,6 +85,9 @@ const Home = () => {
             </div>
             <div className='new'>
                 <p className={fontlist[font]}>{test}</p>
+            </div>
+            <div data-aos="fade-in" className='content'>
+                <p data-aos="fade-in" className = 'text'>dosiafjoisdjf</p>
             </div>
         </div>
 
