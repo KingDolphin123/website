@@ -61,14 +61,14 @@ const Home = () => {
             <img className='navheader' src={bgbg} alt='head'></img>
             <div className='para' >
                 <img className='ree bg' src={bgbg} alt='bg'></img>
-                <img className='ree mnt--3' src={mnt3} alt='mnt3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .4}px)` }}></img>
-                <img className='ree cld--3' src={cld3} alt='cld3' style={{ transition: `.0s`, transform: `translateY(${offsetY * .6}px)` }}></img>
-                <img className='ree mnt--2' src={mnt2} alt='mnt2' style={{ transition: `.0s`, transform: `translateY(${offsetY * .1}px)` }}></img>
-                <img className='ree mnt--1' src={mnt1} alt='mnt1' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .4}px)` }}></img>
-                <img className='ree cld--2' src={cld2} alt='cld2' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .5}px)` }}></img>
-                <img className='ree cld--1' src={cld1} alt='cld1' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .6}px)` }}></img>
-                <img className='rect cld--1' src={rect} alt='rect' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .6}px)` }}></img>
-                <div className='welcomewrap' style={{ transition: `.0s`, transform: `translateY(-${offsetY * .1}px)` }}>
+                <img className='ree mnt--3' src={mnt3} alt='mnt3' style={{transform: `translateY(${offsetY * .4}px)` }}></img>
+                <img className='ree cld--3' src={cld3} alt='cld3' style={{transform: `translateY(${offsetY * .6}px)` }}></img>
+                <img className='ree mnt--2' src={mnt2} alt='mnt2' style={{transform: `translateY(${offsetY * .1}px)` }}></img>
+                <img className='ree mnt--1' src={mnt1} alt='mnt1' style={{transform: `translateY(-${offsetY * .4}px)` }}></img>
+                <img className='ree cld--2' src={cld2} alt='cld2' style={{transform: `translateY(-${offsetY * .5}px)` }}></img>
+                <img className='ree cld--1' src={cld1} alt='cld1' style={{transform: `translateY(-${offsetY * .6}px)` }}></img>
+                <img className='rect cld--1' src={rect} alt='rect' style={{transform: `translateY(-${offsetY * .6}px)` }}></img>
+                <div className='welcomewrap' style={{transform: `translateY(-${offsetY * .1}px)` }}>
                     <div className="Welcome" >
                         <p className="letter W">W</p>
                         <p className="letter E">e</p>
