@@ -34,7 +34,7 @@
 .rect{
     z-index: 1;
     width: 100vw;
-    height: 140vh;
+    height: 70vh;
     position: absolute;
     top: 120vh;
 }
@@ -60,6 +60,9 @@
 }
 .cld--2{
     animation: float 4s infinite;
+}
+.mnt3{
+    position:fixed;
 }
 .new{
     min-height: 30vh;
@@ -161,4 +164,10 @@
 }
 .E2{
     animation: load 3s 1.2s forwards, float 5s 4.5s ease-in-out infinite;
+}
+.lax1{
+    opacity: 100%;
+}
+.lax2{
+    opacity: 0%;
 }
