@@ -67,7 +67,7 @@
 .new{
     min-height: 30vh;
     position: auto;
-    background-color: red;
+    background-color: whitesmoke;
     display: flex;
     align-items:flex-end;
     justify-content: center;
