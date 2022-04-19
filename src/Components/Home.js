@@ -11,7 +11,6 @@ import bgbg from '../css/bg.png'
 import arrow from '../css/arr.png';
 import { floor, random } from 'mathjs'
 import AOS from 'aos'
-import testUtils from 'react-dom/test-utils';
 
 const Home = () => {
     AOS.init();
@@ -61,18 +60,18 @@ const Home = () => {
             setfont(floor(random() * 5))
         }
     }, [test])
-    // window.addEventListener('scroll', handleScroll, { once: true })
-    window.addEventListener("scroll", ()=>{handleScroll();changetest()},{ once: true });
-    // useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll);
-
-    //     return () => window.removeEventListener("scroll", handleScroll);
-    // }, []);
+    window.addEventListener('scroll', changetest, { once: true })
+    // window.addEventListener("scroll", ()=>{handleScroll()},{ once: true });
     useEffect(() => {
-        window.addEventListener("scroll", changetest);
+        window.addEventListener("scroll", handleScroll);
 
-        return () => window.removeEventListener("scroll", changetest);
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+    // useEffect(() => {
+    //     window.addEventListener("scroll", changetest);
+
+    //     return () => window.removeEventListener("scroll", changetest);
+    // }, []);
     const scrollOne = () => {
         window.scrollTo({
             // top: window.innerHeight + .5 * window.innerHeight,
